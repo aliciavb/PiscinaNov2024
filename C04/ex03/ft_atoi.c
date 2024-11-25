@@ -6,17 +6,15 @@
 /*   By: avinals- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/21 17:02:29 by avinals-          #+#    #+#             */
-/*   Updated: 2024/11/22 12:30:05 by avinals-         ###   ########.fr       */
+/*   Updated: 2024/11/24 12:31:17 by avinals-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_atoi(char *str)
 {
 	int	i;
 	int	sign;
-	int result;
+	int	result;
 
 	result = 0;
 	sign = 1;
@@ -38,13 +36,14 @@ int	ft_atoi(char *str)
 	return (result * sign);
 }
 
+/*#include <stdio.h>
 int main(int ac, char *av[])
 {
 	int i = 1;
-	while(i < ac)
+	while (i < ac)
 	{
-		printf("%d\n", ft_atoi(av[i]));
+		printf("%d\n", ft_atoi(av[1]));
 		i++;
 	}
 	return (0);
-}
+}*/
